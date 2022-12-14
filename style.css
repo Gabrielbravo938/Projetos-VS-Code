@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'cursiva', sans-serif;
+}
+
+body{
+    background: #ff3fef;
+    width: 1440px;
+
+}
+.calculadora{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:15px ;
+    padding: 10px;
+    background-color:rgb(241, 232, 232);
+    box-shadow:  rgb(68, 67, 67) 10px 9px 4px;
+
+    
+}
+
+table td{
+    display: inline-block;
+}
+.btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    background-color: #236485;
+    box-shadow: #5f5f61 2px 2px;
+    color: #dfdfdf;
+    font-size: 16px;
+    transition: all 500ms ease-in-out;
+    -webkit-box-shadow: 1px 2px 0px 0px #797575;
+    
+}
+.btn:hover{
+    background-color: #134863;
+}
+.btn-div{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(45, 84, 211);
+    box-shadow: #5f5f61 2px 2px;
+    -webkit-box-shadow: 1px 2px 0px 0px #797575;
+}
+
+.btn-div:hover{
+    background-color:rgb(22, 58, 175);
+}
+
+    
+    
+.btn-mult{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(45, 84, 211);
+    box-shadow: #5f5f61 2px 2px;
+    -webkit-box-shadow: 1px 2px 0px 0px #797575;
+}
+.btn-mult:hover{
+    background-color:rgb(22, 58, 175);
+}
+
+.btn-sub{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(45, 84, 211);
+    box-shadow: #5f5f61 2px 2px;
+    -webkit-box-shadow: 1px 2px 0px 0px #797575;
+}
+.btn-sub:hover{
+    background-color:rgb(22, 58, 175);
+}
+.btn-adc{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(45, 84, 211);
+    box-shadow: #5f5f61 2px 2px;
+    -webkit-box-shadow: 1px 2px 0px 0px #797575;
+
+}
+.btn-adc:hover{
+    background-color:rgb(22, 58, 175);
+}
+
+.btn-igual{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(45, 84, 211);
+     -webkit-box-shado: 1px 2px 0px 0px #797575;
+
+}   
+.btn-igual:hover{
+    background-color:rgb(22, 58, 175);
+}
+
+.btn-ponto{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(45, 84, 211);
+    box-shadow: #5f5f61 2px 2px;
+    -webkit-box-shadow: 1px 2px 0px 0px #797575;
+}
+.btn-ponto:hover{
+    background-color:rgb(22, 58, 175);
+}
+
+.reset{
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px 5px 5px;
+    border: none;
+    background-color: rgb(252, 61, 61);
+    cursor: pointer;
+    box-shadow: #5f5f61 2px 2px;
+    -webkit-box-shadow: 1px 2px 0px 0px #797575;
+
+    
+}
+.reset:hover{
+    background-color: #f10e0e;
+}
+.backspace{
+    margin :5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px 5px 5px;;
+    border: none;
+    background-color: #14bead;
+    cursor: pointer;
+    box-shadow: #5f5f61 2px 2px;
+    -webkit-box-shadow: 1px 2px 0px 0px #797575;
+    
+
+}
+.backspace:hover{
+    background-color: rgb(0, 138, 138);
+}
+
+
+.result{
+    background-color: #d1d7dad3;
+    height: 170px;
+    border-top: 10px;
+    color: #111111;
+    text-align: right ;
+    font-size: 30px;
+    margin-bottom: -12px;
+    word-wrap: break-word;
+    border-bottom: 0.5px solid #616362;
+    border-top: 0.5px solid #616362;
+    border-radius: 5px   
+}
+.button{
+    margin-bottom: 5px;
+    position: relative;
+    width: 45px;
+    height: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 2.5px #04a7ff;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px black;
+}
+.ball{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 22px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    transition: left 1s;
+}
+.ball-move{
+    left: calc(100% - 22px);
+}
+.dark{
+    background-color: #2f39af;
+}
