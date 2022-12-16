@@ -20,7 +20,7 @@ body{
     transform: translate(-50%, -50%);
     border-radius:15px ;
     padding: 10px;
-    background-color:rgb(38, 99, 128);
+    background-color:rgb(255, 255, 255);
     box-shadow:  rgb(68, 67, 67) 10px 9px 4px;
 
     
@@ -36,9 +36,9 @@ table td{
     cursor: pointer;
     border: none;
     border-radius: 100px;
-    background-color: #ffffff;
+    background-color: #0a7ddb;
     box-shadow: #1b1b1b 2px 2px;
-    color: #000000;
+    color: #ffffff;
     font-size: 16px;
     transition: all 500ms ease-in-out;
     -webkit-box-shadow: 1px 2px 0px 0px #797575;
@@ -218,7 +218,7 @@ table td{
     left: calc(100% - 22px);
 }
 .dark{
-    background-color: #ebebeb;
+    background-color: #db4c83;
 }
 
 
