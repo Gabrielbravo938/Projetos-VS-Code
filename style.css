@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@ body{
     transform: translate(-50%, -50%);
     border-radius:15px ;
     padding: 10px;
-    background-color:rgb(241, 232, 232);
+    background-color:rgb(223, 223, 223);
     box-shadow:  rgb(68, 67, 67) 10px 9px 4px;
 
     
@@ -216,5 +218,5 @@ table td{
     left: calc(100% - 22px);
 }
 .dark{
-    background-color: #2f39af;
+    background-color: #ebebeb;
 }
