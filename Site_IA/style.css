@@ -18,21 +18,42 @@ body {
     height: calc(100vh - 100px);
     background: no-repeat center/cover url(/assets/img/brakingbad.png) }
     
-    
+
+
+   
+
   h1 {
-    margin: 0;
+    margin-top: -5px;
+    padding: 5px;
+    margin-bottom: 15px;
   }
+ 
   
   nav {
-    background-color: rgba(70, 70, 70, 0.767);
+    background-color: rgb(53, 52, 52);
     display: flex;
     justify-content: center;
-    padding: 9px ;
-    position: sticky;   
+  
     top: 0;
+    position: sticky;
+    cursor: pointer;
    
- 
+  
   }
+  .logo-img{
+    width: 60px;
+    border-radius: 100%;
+    padding:6px;
+    background-color: rgb(68, 136, 224);
+    cursor: pointer;
+  }
+  .logo-img:hover{
+  background-color: rgb(218, 196, 0);
+  transition: 1s;
+  }
+
+    
+ 
   
   ul {
     list-style: none;
@@ -40,62 +61,57 @@ body {
     padding: 0;
     display:contents;
     font-size: 16px;
-    
-    
-
   }
   
   li {
-    margin: 10px 10px;
+    margin: 15px 70px;
+    padding-top: 10px;
     
   }
   
   a {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    font-size: 20px;
   }
   a:hover{
-    color: yellow;
-    transition: 0.2ms;
-    font-size: larger;
+    color: rgb(1, 162, 255);
+    transition:0.4ms;
+    
     
   }
   
   main {
     padding: 20px;
   }
-  
+
   .content{
-   width: 60%;
+  width: 60%;
 	margin:0px auto;
-	background:rgba(255, 255, 255, 0.596);
+	background:rgba(226, 226, 226, 0.925);
 	padding:25px 25px;
 	margin-top:-30px;
 	position:relative;
-	border-left:1px solid rgba(0,0,0,0.08);
-	border-right:1px solid rgba(0,0,0,0.08);
-	border-top: 1px solid rgba(0,0,0,0.08);
+	border-left:5px solid rgba(0, 0, 0, 0.08);
+	border-right:5px solid rgba(0,0,0,0.08);
+	border-top: 5px solid rgba(0,0,0,0.08);
 	border-radius: 30px;
-    color:black;
-    font-size: 20px;
-    box-shadow: rgb(105, 105, 105) 5px 5px 10px;
+  color:black;
+  font-size: 20px;
 }
-  .post-content{
-    padding:0;
+.post-content{
+  padding:0;
 	width:calc(100%+32px);
 	min-width:0;
 	max-width:112%;
 		
 }
 
-
-
-
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    text-align: center;
-    margin-top: 100px;}
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  margin-top: 100px;}
 
   

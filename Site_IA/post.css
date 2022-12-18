@@ -1,6 +1,7 @@
-@media screen and (min-width: 500px){}
+
 
 *{
+ 
    margin: 0;
    padding: 0;
   
@@ -10,19 +11,30 @@
 nav {
     background-color:  rgba(3, 3, 3, 0.753);
     display:flex;
-    padding: auto;  
+    padding: 10px ;  
     top: 0;
-   
-
+    
 }
 
-    
+.logo-img{
+  width: 50px;
+  border-radius: 100%;
+  padding:5px;
+  background-color: rgb(68, 136, 224);
+  cursor: pointer;
+}
+.logo-img:hover{
+background-color: rgb(218, 196, 0);
+transition: 1s;}
+
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display:contents;
     font-size: 16px;
+    
+   
   
   }
   li {
@@ -36,12 +48,17 @@ nav {
   }
   a:hover{
     color: yellow;
-    transition: 0.2ms;
-    font-size: larger;
+    transition: 0.5ms;
+    
+    
+    
     
   }
     /* Text Page Edit */
     body {
+      @media screen {max-width: 390px;
+        
+      }
     margin: auto;
     font-family: Arial, sans-serif; /* Set the default font for the page */
     color: rgb(39, 39, 39); /* Set the default text color */
@@ -49,6 +66,7 @@ nav {
   }
   
   h1 {
+
     font-size: 40px; /* Increase the size of heading 1 */
     font-weight: bold ; /* Make heading 1 bold */
     color: #10242e; /* Change the color of heading 1 */
@@ -56,8 +74,10 @@ nav {
   
   }
   .container-text{
-    margin: 100px;
-    padding: 10px;
+    @media screen {max-width: 390px;
+        
+    }
+    padding: 100px;
     border: 1px solid rgb(179, 177, 177);
     border-radius: 10px;
     box-shadow:1px solid black ;
