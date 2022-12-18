@@ -1,11 +1,18 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
 
 nav {
-    background-color: rgba(0, 0, 0, 0.767);
-    display: flex;
-    justify-content: center;
-    padding: 9px ;
-    position: sticky;   
-    top: 0;}
+    background-color:  rgba(3, 3, 3, 0.753);
+    display:flex;
+    padding: auto;  
+    top: 0;
+   
+
+}
+
     
   ul {
     list-style: none;
@@ -13,9 +20,10 @@ nav {
     padding: 0;
     display:contents;
     font-size: 16px;
+  
   }
   li {
-    margin: 10px 10px;
+    margin: 15px 20px 20px;
     
   }
   
@@ -26,63 +34,57 @@ nav {
   a:hover{
     color: yellow;
     transition: 0.2ms;
-    font-family: fantasy;
+    font-size: larger;
+    
+  }
+    /* Text Page Edit */
+    body {
+    margin: auto;
+    font-family: Arial, sans-serif; /* Set the default font for the page */
+    color: rgb(39, 39, 39); /* Set the default text color */
+   
+  }
+  
+  h1 {
+    font-size: 40px; /* Increase the size of heading 1 */
+    font-weight: bold ; /* Make heading 1 bold */
+    color: #10242e; /* Change the color of heading 1 */
+    text-align: center; /* Center the text */
+  
+  }
+  .container-text{
+    margin: 100px;
+    padding: 10px;
+
+  }
+  
+  p {
+    font-size: 18px; /* Increase the size of paragraphs */
+    line-height: 1.5; /* Increase the line spacing */
+    margin-bottom: 20px; /* Add some space below paragraphs */
+    
   }
 
-  /*
--- Padrões e Reset
-*/
+  
+  
+  a:hover {
+    text-decoration: underline; /* Add an underline when the mouse hovers over a link */
+  }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
-}
-
-/*
--- Tipografia e Cores
-*/
-
-body {
-    color: #333;
-}
-
-body, input, select, textarea {
-    /* fonte: http://www.sitepoint.com/eight-definitive-font-stacks-2/ */
-    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-}
+  .intro {
+    font-weight: bold;
+    color: #0066CC;
+  }
+  
+  .body {
+    font-size: 18px;
+    line-height: 1.75;
+  }
+  
+  .conclusion {
+    font-style: italic;
+    text-align: right;
+  }
 
 
-p {
-    font-size: 16px;
-    margin-bottom: 1.5em;
-    line-height: 1.4em;
-}
-
-#conteudo-principal h1 {
-    font-size: 36px;
-    margin-bottom: 0.5em;
-}
-
-#conteudo-principal h2,
-#conteudo-secundario h1 {
-    font-size: 24px;
-    margin-bottom: 0.5em;
-}
-
-#conteudo-secundario p {
-    font-size: 14px;
-}
-
-#conteudo-principal ul,
-#conteudo-principal ol {
-    font-size: 16px;
-    margin-left: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-#conteudo-principal ul {
-    list-style-type: square;
-}
-
-#conteudo-principal li {
-    margin-bottom: 0.3em;
-}
+  

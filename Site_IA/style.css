@@ -1,6 +1,10 @@
 *{
-    box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+ 
+ }
+
+
 body {
     background-color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
@@ -14,12 +18,7 @@ body {
     height: calc(100vh - 100px);
     background: no-repeat center/cover url(/assets/img/brakingbad.png) }
     
-
-.scrollable{
-   scroll-behavior: smooth; 
-}
-   
- 
+    
   h1 {
     margin: 0;
   }
@@ -58,7 +57,8 @@ body {
   a:hover{
     color: yellow;
     transition: 0.2ms;
-    font-family: fantasy;
+    font-size: larger;
+    
   }
   
   main {
@@ -66,9 +66,9 @@ body {
   }
   
   .content{
-    width: 60%;
+   width: 60%;
 	margin:0px auto;
-	background:rgba(156, 156, 156, 0.596);
+	background:rgba(255, 255, 255, 0.596);
 	padding:25px 25px;
 	margin-top:-30px;
 	position:relative;
@@ -78,6 +78,7 @@ body {
 	border-radius: 30px;
     color:black;
     font-size: 20px;
+    box-shadow: rgb(105, 105, 105) 5px 5px 10px;
 }
   .post-content{
     padding:0;
@@ -86,6 +87,10 @@ body {
 	max-width:112%;
 		
 }
+
+
+
+
 footer {
     background-color: #333;
     color: #fff;
