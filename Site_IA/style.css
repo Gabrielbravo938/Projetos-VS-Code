@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  header {
+    
+    height: calc(100vh - 100px);
+    background: no-repeat center/cover url(/assets/img/brakingbad.png) }
+    
+
+.scrollable{
+   scroll-behavior: smooth; 
+}
+   
+ 
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: rgba(70, 70, 70, 0.767);
+    display: flex;
+    justify-content: center;
+    padding: 9px ;
+    position: sticky;   
+    top: 0;
+   
+ 
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:contents;
+    font-size: 16px;
+    
+    
+
+  }
+  
+  li {
+    margin: 10px 10px;
+    
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  a:hover{
+    color: yellow;
+    transition: 0.2ms;
+    font-family: fantasy;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .content{
+    width: 60%;
+	margin:0px auto;
+	background:rgba(156, 156, 156, 0.596);
+	padding:25px 25px;
+	margin-top:-30px;
+	position:relative;
+	border-left:1px solid rgba(0,0,0,0.08);
+	border-right:1px solid rgba(0,0,0,0.08);
+	border-top: 1px solid rgba(0,0,0,0.08);
+	border-radius: 30px;
+    color:black;
+    font-size: 20px;
+}
+  .post-content{
+    padding:0;
+	width:calc(100%+32px);
+	min-width:0;
+	max-width:112%;
+		
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    margin-top: 100px;}
+
+  

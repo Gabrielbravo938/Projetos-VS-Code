@@ -1,0 +1,88 @@
+
+nav {
+    background-color: rgba(0, 0, 0, 0.767);
+    display: flex;
+    justify-content: center;
+    padding: 9px ;
+    position: sticky;   
+    top: 0;}
+    
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display:contents;
+    font-size: 16px;
+  }
+  li {
+    margin: 10px 10px;
+    
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  a:hover{
+    color: yellow;
+    transition: 0.2ms;
+    font-family: fantasy;
+  }
+
+  /*
+-- Padrões e Reset
+*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/*
+-- Tipografia e Cores
+*/
+
+body {
+    color: #333;
+}
+
+body, input, select, textarea {
+    /* fonte: http://www.sitepoint.com/eight-definitive-font-stacks-2/ */
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+
+p {
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+}
+
+#conteudo-principal h1 {
+    font-size: 36px;
+    margin-bottom: 0.5em;
+}
+
+#conteudo-principal h2,
+#conteudo-secundario h1 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+#conteudo-secundario p {
+    font-size: 14px;
+}
+
+#conteudo-principal ul,
+#conteudo-principal ol {
+    font-size: 16px;
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#conteudo-principal ul {
+    list-style-type: square;
+}
+
+#conteudo-principal li {
+    margin-bottom: 0.3em;
+}
